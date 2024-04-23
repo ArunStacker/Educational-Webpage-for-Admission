@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerform {
+  width: 100%;
+  height: auto; /* Adjust height to auto for responsiveness */
+  position: relative;
+  overflow: hidden;
+}
+
+.headerform .inner_headerform_right{
+  position: absolute;
+  background-position: center;
+  overflow: hidden;
+}
+
+.headerform .moves {
+  width: 100%;
+  height: auto; /* Adjust height to auto for responsiveness */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFBE4F;
+  position: relative;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.headerform .moves h1 {
+  color: #FF6E43;
+  font-family: Helvetica;
+  font-size: 1.5rem; /* Adjust font size for better readability */
+}
+
+.grrenna {
+  width: 90%; /* Adjust width for responsiveness */
+  max-width: 450px;
+  height: auto; /* Adjust height to auto for responsiveness */
+  /* border: 4px dotted yellow; */
+  position: relative;
+  margin: 0 auto; /* Center the form */
+  margin-top: 20px; /* Add margin for spacing */
+  padding: 20px; /* Add padding for better spacing */
+  
+}
+
+.grrenna .greena_sub {
+  width: 100%;
+  height: auto; /* Adjust height to auto for responsiveness */
+  position: relative;
+  box-shadow: 10px 10px 4px 7px whitesmoke;
+  border: 1px solid white;
+  border-radius: 7px;
+  
+}
+
+.grrenna .greena_sub form label {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 1rem; /* Adjust font size for better readability */
+}
+
+.grrenna .greena_sub form input[type="text"],
+.grrenna .greena_sub form input[type="tel"],
+.grrenna .greena_sub form input[type="email"],
+.grrenna .greena_sub form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem; /* Adjust font size for better readability */
+ background-color: rgba(255, 255, 255, 0.266);
+}
+
+.grrenna .greena_sub form select {
+  height: 40px;
+}
+
+.grrenna .greena_sub form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size for better readability */
+}
+
+.grrenna .greena_sub form button:hover {
+  background-color: #45a049;
+}
+
+.grrenna .greena_sub form input[type="radio"] {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+
+}
+.greena_sub  input::placeholder {
+color:black;
+font-size: 20px;
+padding-left: 150px;
+}
+.grrenna .greena_sub form label.radio-label {
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+}
+
+.grrenna .greena_sub form label.radio-label:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.headerform .inner_headerform_right video{
+
+
+}
+.grrenna .greena_sub form label{
+  font-size: 20px;
+  color:#FFBE4F;
+  font-family: arial;
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+.grrenna .greena_sub:hover{
+  transition: transform .5s ease;
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 600px) {
+  .grrenna {
+      width: 90%; /* Adjust width for responsiveness */
+      max-width: none;
+      height: auto; /* Adjust height to auto for responsiveness */
+      margin-top: 20px; /* Add margin for spacing */
+      padding: 20px; /* Add padding for better spacing */
+  }
+  
+
+  .grrenna .greena_sub form label {
+      font-size: 0.9rem; /* Adjust font size for better readability */
+  }
+
+  .grrenna .greena_sub form input[type="text"],
+  .grrenna .greena_sub form input[type="tel"],
+  .grrenna .greena_sub form input[type="email"],
+  .grrenna .greena_sub form select {
+      font-size: 0.9rem; /* Adjust font size for better readability */
+  }
+
+  .grrenna .greena_sub form button {
+      font-size: 0.9rem; /* Adjust font size for better readability */
+  }
+
+  .greena_sub  input::placeholder {
+    color:black;
+    font-size: 20px;
+    }
+    input[type="radio"] {
+  
+      width: 1.5em;
+      height: 1.5em; 
+    }
+}
+input[type="radio"] {
+  
+  width: 1.7em;
+  height: 1.7em; 
+}
